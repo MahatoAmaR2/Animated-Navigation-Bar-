@@ -4,10 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animated Navigation Bar </title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1>Har Har Mahadev</h1>
+    <header class="navbar">
+    <div class="logo">BaUaa</div>
+    <nav class="nav-links" id="navLinks">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Projects</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+
+      <div class="search-wrapper" id="searchWrapper">
+        <input type="text" placeholder="Search..." id="searchInput" />
+        <button id="searchToggle">
+          <i class="fas fa-search"></i>
+        </button>
+      </div>
+    </nav>
+    
     <script src="./script.js"></script>
 </body>
 </html>
