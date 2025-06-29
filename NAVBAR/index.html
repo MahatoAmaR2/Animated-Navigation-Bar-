@@ -1,32 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Animated Navigation Bar </title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animated Navigation Bar</title>
 
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
     <header class="navbar">
-    <div class="logo">BaUaa</div>
-    <nav class="nav-links" id="navLinks">
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Projects</a>
-      <a href="#">Services</a>
-      <a href="#">Contact</a>
+      <div class="logo">BaUaa</div>
 
-      <div class="search-wrapper" id="searchWrapper">
-        <input type="text" placeholder="Search..." id="searchInput" />
-        <button id="searchToggle">
-          <i class="fas fa-search"></i>
-        </button>
-      </div>
-    </nav>
-    
+      <nav class="nav-container" id="navLinks">
+        <a href="#" class="nav-link">Home</a>
+        <a href="#" class="nav-link">About</a>
+        <a href="#" class="nav-link">Projects</a>
+        <a href="#" class="nav-link">Services</a>
+        <a href="#" class="nav-link">Contact</a>
+
+        <span></span>
+
+        <div class="search-wrapper" id="searchWrapper">
+          <input type="text" placeholder="Search..." id="searchInput" />
+          <button id="searchToggle">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+
     <script src="./script.js"></script>
-</body>
+  </body>
 </html>
