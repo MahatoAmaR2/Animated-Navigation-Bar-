@@ -4,13 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Animated Navigation Bar</title>
-
-    <!-- Fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <!-- Icons -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
@@ -22,24 +19,22 @@
     <header class="navbar">
       <div class="logo">BaUaa</div>
 
-      <nav class="nav-container" id="navLinks">
-        <a href="#" class="nav-link">Home</a>
-        <a href="#" class="nav-link">About</a>
-        <a href="#" class="nav-link">Projects</a>
-        <a href="#" class="nav-link">Services</a>
-        <a href="#" class="nav-link">Contact</a>
-
+      <div class="hamburger" id="hamburger">
         <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <nav class="nav-links" id="navLinks">
+      
 
-        <div class="search-wrapper" id="searchWrapper">
-          <input type="text" placeholder="Search..." id="searchInput" />
-          <button id="searchToggle">
-            <i class="fas fa-search"></i>
-          </button>
-        </div>
+        <a href="./index.html">Home</a>
+        <a href="../PAGES/about.html">About</a>
+        <a href="#">Projects</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+        <span class="indicator"></span>
       </nav>
     </header>
-
     <script src="./script.js"></script>
   </body>
 </html>

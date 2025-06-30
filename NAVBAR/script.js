@@ -1,6 +1,9 @@
-const searchToggle = document.getElementById("searchToggle");
-const searchWrapper = document.getElementById("searchWrapper");
+const hamburger = document.getElementById("hamburger");
+const navLinks = document.getElementById("navLinks");
 
-searchToggle.addEventListener("click", () => {
-  searchWrapper.classList.toggle("active");
+hamburger.addEventListener("click", () => {
+  hamburger.classList.toggle("active");
+  navLinks.classList.toggle("active");
+  console.log("HAR HAR MAHADEV");
+  
 });
