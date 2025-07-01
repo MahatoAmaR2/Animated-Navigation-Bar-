@@ -1,0 +1,60 @@
+.projects-section {
+  padding: 100px 20px;
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  color: #ffffff;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.projects-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  animation: fadeInUp 1s ease forwards;
+  opacity: 0;
+}
+
+.projects-container h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-family: "Orbitron", sans-serif;
+}
+
+.projects-intro {
+  font-size: 1.1rem;
+  color: #ccc;
+  margin-bottom: 40px;
+}
+
+.project-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.project-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 30px 20px;
+  border-radius: 12px;
+  width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 255, 255, 0.2);
+}
+
+.project-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #00f5a0;
+  font-family: "Orbitron", sans-serif;
+}
+
+.project-card p {
+  font-size: 1rem;
+  color: #ccc;
+  line-height: 1.5;
+}
