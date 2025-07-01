@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap");
+
+#home {
+  margin-top: 60px;
+  background: linear-gradient(to right, #1c1c2b, #3a3f75, #0f0c29);
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  padding: 70px 20px;
+  min-height: 85vh;
+  animation: fadeIn 1.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero {
+  max-width: 800px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  background: linear-gradient(45deg, #00f5a0, #00d9f5, #007cf0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: gradientShift 5s ease infinite;
+  background-size: 200% 200%;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 22px;
+  margin-top: 10px;
+  color: #ddd;
+}
+
+.hero .highlight {
+  font-weight: bold;
+  font-family: "Orbitron", sans-serif;
+  letter-spacing: 2px;
+  text-shadow: 0 0 10px rgba(0, 255, 255, 0.4);
+  background: linear-gradient(135deg, #9d50bb, #6e48aa, #00d9f5, #007cf0);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.tagline {
+  font-family: "Orbitron", sans-serif;
+  font-size: 2.5rem;
+  margin-top: 40px;
+  letter-spacing: 2px;
+}
+
+/* animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
