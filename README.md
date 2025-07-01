@@ -14,6 +14,6 @@ A responsive, animated navigation bar with a hamburger menu, built using HTML, C
 - Vanilla JavaScript
 
 ## Run the Project
-Just open `index.html` in a browser.
+Just open [Link](https://bauaa.netlify.app/) in a browser.
 
 
